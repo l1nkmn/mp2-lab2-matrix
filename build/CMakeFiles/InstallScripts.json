@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/nick/mp2-lab2-matrix/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

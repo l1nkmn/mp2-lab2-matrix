@@ -1,0 +1,6 @@
+/home/nick/mp2-lab2-matrix/build/CMakeFiles/gtest.dir
+/home/nick/mp2-lab2-matrix/build/CMakeFiles/sample_matrix.dir
+/home/nick/mp2-lab2-matrix/build/CMakeFiles/run_tests.dir
+/home/nick/mp2-lab2-matrix/build/CMakeFiles/test.dir
+/home/nick/mp2-lab2-matrix/build/CMakeFiles/edit_cache.dir
+/home/nick/mp2-lab2-matrix/build/CMakeFiles/rebuild_cache.dir

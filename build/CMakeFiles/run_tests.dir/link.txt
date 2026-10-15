@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/run_tests.dir/test/test_main.cpp.o CMakeFiles/run_tests.dir/test/test_tmatrix.cpp.o CMakeFiles/run_tests.dir/test/test_tvector.cpp.o -o run_tests  libgtest.a
