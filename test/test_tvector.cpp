@@ -14,13 +14,13 @@ TEST(TDynamicVector, copied_vector_has_its_own_memory)
     TDynamicVector<int> v(10);
     TDynamicVector<int> v1(v);
     v[0] = 42;
-    EXPECT_NE(v1[0], 42);   // копия не изменилась
+    EXPECT_NE(v1[0], 42);
 }
 
 TEST(TDynamicVector, throws_when_set_element_with_negative_index)
 {
     TDynamicVector<int> v(5);
-    EXPECT_ANY_THROW(v.at(-1));       // или v[-1] — зависит от вашего API
+    EXPECT_ANY_THROW(v.at(-1));
 }
 
 TEST(TDynamicVector, throws_when_set_element_with_too_large_index)
@@ -137,8 +137,8 @@ TEST(TDynamicVector, can_multiply_vectors_with_equal_size)
     TDynamicVector<int> a(3), b(3);
     a[0]=1; a[1]=2; a[2]=3;
     b[0]=4; b[1]=5; b[2]=6;
-    int r = a * b;                  // скалярное произведение
-    EXPECT_EQ(r, 1*4 + 2*5 + 3*6);  // = 32
+    int r = a * b;                  
+    EXPECT_EQ(r, 1*4 + 2*5 + 3*6);
 }
 
 TEST(TDynamicVector, cant_multiply_vectors_with_not_equal_size)
