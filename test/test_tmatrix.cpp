@@ -41,7 +41,7 @@ TEST(TDynamicMatrix, copied_matrix_has_its_own_memory)
   TDynamicMatrix<int> copy(m);
   copy[0][0] = 100;
 
-  EXPECT_EQ(m[0][0], 42);     // оригинал не изменился
+  EXPECT_EQ(m[0][0], 42);
   EXPECT_EQ(copy[0][0], 100);
 }
 
@@ -61,7 +61,6 @@ TEST(TDynamicMatrix, can_set_and_get_element)
 TEST(TDynamicMatrix, throws_when_set_element_with_negative_index)
 {
   TDynamicMatrix<int> m(3);
-  // -1 преобразуется в size_t → огромное число → должно бросить
   EXPECT_ANY_THROW(m.at(static_cast<size_t>(-1)));
 }
 
@@ -79,7 +78,7 @@ TEST(TDynamicMatrix, can_assign_matrix_to_itself)
       m[i][j] = static_cast<int>(i + j);
 
   TDynamicMatrix<int>& ref = m;
-  m = ref;   // self-assignment
+  m = ref;
 
   for (size_t i = 0; i < 3; ++i)
     for (size_t j = 0; j < 3; ++j)
