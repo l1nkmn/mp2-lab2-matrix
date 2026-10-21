@@ -1,7 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/nick/mp2-lab2-matrix/build/cmake_install.cmake"
+		"C:/Users/\u041d\u0438\u043a\u043e\u043b\u0430\u0439/Desktop/lab_test/mp2-lab2-matrix/build/cmake_install.cmake",
+		"C:/Users/\u041d\u0438\u043a\u043e\u043b\u0430\u0439/Desktop/lab_test/mp2-lab2-matrix/build/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/\u041d\u0438\u043a\u043e\u043b\u0430\u0439/Desktop/lab_test/mp2-lab2-matrix/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/\u041d\u0438\u043a\u043e\u043b\u0430\u0439/Desktop/lab_test/mp2-lab2-matrix/build/_deps/googletest-build/googletest/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

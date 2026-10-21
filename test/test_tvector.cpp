@@ -1,5 +1,5 @@
 #include "tmatrix.h"
-#include <gtest.h>
+#include <gtest/gtest.h>
 
 TEST(TDynamicVector, copied_vector_is_equal_to_source_one)
 {

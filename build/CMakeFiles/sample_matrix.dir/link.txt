@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/sample_matrix.dir/samples/sample_matrix.cpp.o -o sample_matrix
